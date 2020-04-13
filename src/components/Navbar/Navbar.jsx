@@ -1,17 +1,12 @@
 import React from 'react';
 import s from './Navbar.module.css';
 
-// let classes = {
-//     'nav': 'Navbar_nav__26PR7 ',
-//     'item': 'Navbar_item__3AkD6'
-// }
-
 const Navbar = () => {
     return <nav className={s.nav}>
     <div className={s.item}>
       <a>Profile</a> 
     </div>
-    <div className={`${s.item} ${s.active}`}>
+    <div className={`${s.item} ${s.active}`}>   {/*два класса вместе js внутри jsx  */}
       <a>Messages</a> 
     </div>
     <div className={s.item}>
