@@ -7,7 +7,7 @@ const Post = (props) => {
      <img src='https://pbs.twimg.com/profile_images/435523312404267008/OdfbG_oN_400x400.jpeg'/>
         {props.message}
       <div>        
-      <span>{props.like}</span>
+      <span>Like</span> {props.like}
       </div>   
    </div>   
   )
